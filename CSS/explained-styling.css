@@ -1,3 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Ubuntu&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Ubuntu", sans-serif;
+}
 body {
   background-color: #2b1c27;
+  color: #fcfcfc;
+}
+
+header {
+  background-color: #7a2f3e;
+  padding: 20px;
+}
+nav {
+  text-align: right;
+  font-size: 24px;
+  word-spacing: 25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  float: right;
+}
+a {
+  text-decoration: none;
+  color: #ff4655;
+}
+#logo {
+  margin-left: 20px;
+}
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+p {
+  font-size: 20px;
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 25px;
+  word-spacing: 3px;
 }
