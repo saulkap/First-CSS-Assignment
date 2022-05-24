@@ -29,7 +29,7 @@ header {
 /*
   Making the nav float on the right so its on the same line 
   as the logo and making the font margins and spacing readable
-*/ 
+*/
 nav {
   text-align: right;
   font-size: 24px;
@@ -58,6 +58,7 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  font-size: 36px;
 }
 /*
   Styling the class the allows the pictures to float 
