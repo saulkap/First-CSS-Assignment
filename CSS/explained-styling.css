@@ -13,6 +13,7 @@
 }
 /*
   Setting the default text color and the background color for the webpages content
+  I'll be using a color scheme for this website that fits valorant so it mostly consists of deep reds and purples
 */
 body {
   background-color: #2b1c27;
@@ -25,6 +26,8 @@ body {
 header {
   background-color: #7a2f3e;
   padding: 20px;
+  position: sticky;
+  top: 0px;
 }
 /*
   Making the nav float on the right so its on the same line 
@@ -45,6 +48,13 @@ a {
   text-decoration: none;
   color: #fcfcfc;
 }
+
+/*
+  This will underline the link and make it more noticable when you hover the link that it is something clickable 
+*/
+a:hover {
+  text-decoration: underline;
+}
 /*
   Creating a margin for the logo to make it more visually appealing
 */
@@ -63,6 +73,8 @@ h1 {
 /*
   Styling the class the allows the pictures to float 
   in the middle and making them all the same size
+  Making the header stick to the top so you can acess links anytime
+
 */
 .center {
   display: block;
@@ -74,6 +86,8 @@ h1 {
 }
 /*
   The text size, width of the text, padding, centering of text, and word spacing all shown here
+  Font and word spacing are large enough to improve readability of the content
+  the margin, padding, and text allignment will let it sit in the middle with a similar width to the images 
 */
 p {
   font-size: 20px;
@@ -81,5 +95,5 @@ p {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 25px;
-  word-spacing: 3px;
+  word-spacing: 5px;
 }
