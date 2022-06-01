@@ -52,6 +52,7 @@ a {
 /*
   This will underline the link and make it more noticable when you hover the link that it is something clickable 
 */
+/* Try this animation: https://codepen.io/jstn/pen/mdoOZJ */
 a:hover {
   text-decoration: underline;
 }
