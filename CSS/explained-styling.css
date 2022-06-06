@@ -49,12 +49,28 @@ a {
   color: #fcfcfc;
 }
 
-/*
-  This will underline the link and make it more noticable when you hover the link that it is something clickable 
-*/
-/* Try this animation: https://codepen.io/jstn/pen/mdoOZJ */
-a:hover {
-  text-decoration: underline;
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fcfcfc;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+@media screen and (max-height: 300px) {
+	a {
+		margin-top: 40px;
+	}
 }
 /*
   Creating a margin for the logo to make it more visually appealing
